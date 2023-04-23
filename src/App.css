@@ -1,0 +1,182 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding-top: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #fcf9f9;
+  color: rgb(92, 92, 92);
+}
+
+header {
+  background-color: #fcab01;
+  border-radius: 50px;
+}
+
+h2 {
+  margin-top: -20px;
+  padding: 0 17px;
+}
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 40px 30px;
+  width: 380px;
+  background: linear-gradient(
+    0deg,
+    rgba(224, 224, 224, 0.089) 0%,
+    rgba(209, 209, 209, 0.048) 35%,
+    rgb(255, 255, 255) 100%
+  );
+  border-radius: 15px;
+  border: 1px solid #32b9cb36;
+  box-shadow: 2px 2px 50px 3px #bebebe4f;
+}
+
+.resultSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.expenseBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #cc8b00;
+  padding: 8px 13px;
+  border-radius: 5px;
+  background-color: #e4e2de;
+}
+.expenseBoxClicked {
+  background-color: #fcac019c;
+  box-shadow: 1px 1px 15px 1px #fcac0185;
+  color: #af7800;
+}
+
+.incomeBox {
+  border-bottom: 1px solid #2aa10f;
+  background-color: #e3e5e2;
+}
+
+.incomeBoxClicked{
+  background-color: #2aa10f9f;
+  box-shadow: 1px 1px 15px 1px #2aa10f7e;
+  color: #157400;
+}
+
+.expenseBox span {
+  color: #2aa10f;
+}
+
+.btn {
+  background-color: rgb(240, 240, 240);
+  color: #32b8cb;
+  border: 1px solid #32b8cb;
+  padding: 4px 20px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px 3px #32b9cb13;
+  cursor: pointer;
+}
+.addBtn {
+  background-color: #32b9cbd0;
+  color: #f1fdff;
+  padding: 5px 20px;
+  transition: background-color 1s;
+}
+.addBtn:hover {
+  background-color: #2db8ca;
+  transition: background-color 1s;
+}
+.cancel {
+  color: #d9114a;
+  border: 1px solid #d9114a;
+  background-color: #d9114a0c;
+  box-shadow: 1px 1px 10px 3px #d9114a1c;
+  transition: background-color 1s;
+}
+.cancel:hover {
+  background-color: #d9114a;
+  color: #ffebf1;
+  transition: background-color 1s;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  min-height: 110px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+input {
+  outline: none;
+  padding: 6px 10px;
+  border: none;
+  border-bottom: 2px solid #32b9cb56;
+  margin-bottom: 15px;
+  background-color: rgba(115, 227, 235, 0.055);
+  border-radius: 2px;
+  color: rgb(78, 78, 78);
+}
+
+input:focus {
+  border-bottom: 2px solid #32b9cbbb;
+  background-color: rgba(115, 227, 235, 0.075);
+  transition: border 0.5s;
+}
+
+input[type="radio"] {
+  margin: 0 5px 20px 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  background-color: red;
+}
+.radioBtn {
+  border: 1px solid green;
+}
+
+.radioBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.transAction {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  background-color: #bebebe21;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.blance {
+  background-color: #32b9cb13;
+  color: #2db8ca;
+  padding: 6px 20px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.searchInput {
+  margin-top: 25px;
+  width: 100%;
+  font-size: 14px;
+}
